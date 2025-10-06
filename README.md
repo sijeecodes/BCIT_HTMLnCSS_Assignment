@@ -1,7 +1,7 @@
 # BCIT_HTMLnCSS_Assignment
 BCIT SSD Program Frontend WebDev Essentials Final Assignment
 
-##Project Description
+## Project Description
 - Create a small business website with three HTML pages, including a home/about page, a
 services/products page, and a contact page.
 - Focus on clear, functional design with semantic HTML.
