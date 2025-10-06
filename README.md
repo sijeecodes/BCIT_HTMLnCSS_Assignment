@@ -8,3 +8,7 @@ services/products page, and a contact page.
 - Forms do not need to be functional.
 - No HTML or CSS templates or frameworks should be used. Aside from a normalize or reset CSS file, the
 code submitted should be written by you.
+
+
+![playVideo](YNG_Desktop.gif)
+![playVideo](YNG_Phone.gif)
