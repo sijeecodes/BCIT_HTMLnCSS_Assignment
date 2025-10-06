@@ -1,0 +1,67 @@
+h2 {
+  width: 100%;
+  padding: 0;
+  margin: 2rem 0 1rem 0;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-size: clamp(1.3rem, 1.7vw, 2rem);
+  padding: 0;
+}
+
+.form-wrapper {
+  background-image: url("../images/green.webp");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.form {
+  background-color: #ffffffdd;
+  max-width: min(90vw, 30rem);
+  margin: auto;
+  padding: 1.5rem 1rem 4rem 1rem;
+}
+
+.form-label {
+  font-size: 1.1rem;
+  display: block;
+  text-align: left;
+  margin: 1.2rem 0 .4rem 0;
+}
+
+.input-box,
+.input-content {
+  display: block;
+  height: 1.8rem;
+  width: 100%;
+}
+
+.input-content {
+  height: 10rem;
+}
+
+#right-align {
+  text-align: right;
+}
+
+.send-btn {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  font-size: 1.1rem;
+  padding: .2rem 1.5rem .2rem 1.5rem;
+  margin-top: .5rem;
+}
+
+.send-btn:hover,
+.send-btn:focus,
+.send-active {
+  color: #0c9600;
+  border-color: #0c9600;
+}

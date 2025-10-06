@@ -1,0 +1,111 @@
+h2 {
+  padding-bottom: 1rem;
+}
+
+#first-section {
+  background-image: url(../images/powder2.webp);
+  height: calc(100vh - 7.5rem);
+  min-height: 20rem;
+}
+
+#second-section,
+#third-section {
+  background-image: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-bottom: 3rem;
+}
+
+#second-section-image {
+  display: inline-block;
+}
+
+p {
+  font-size: clamp(1rem, 1.3vw, 1.5rem);
+  padding: .3rem 1rem .3rem 1rem;
+}
+
+q {
+  font-size: clamp(1.1rem, 1.5vw, 2rem);
+  font-style: italic;
+  line-height: clamp(1.5rem, 2vw, 3rem);
+  background-color: #ffffff70;
+  margin: 0;
+}
+
+.ingredient-wrapper {
+  padding: .5rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ingredient-conainer {
+  padding: 1rem 0 1rem 0;
+  margin: 0;
+  width: clamp(18rem, 22vw, 30rem);
+  text-align: left;
+}
+
+.ingredient-list-item {
+  font-size: clamp(1rem, 1.2vw, 1.5rem);
+  list-style: "✔ " inside;
+  padding-bottom: .4rem;
+}
+
+.accordion-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.accordion-container input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.accordion-item-question {
+  display: inline-block;
+  width: 90%;
+  padding: .5rem 0 .5rem 0;
+  margin: 0 0 .3rem 0;
+  border: 0.1rem solid #5a5a5a;
+  font-size: clamp(1.3rem, 1.7vw, 2rem);
+}
+
+.accordion-item-detail {
+  display: inline-block;
+  max-height: 0;
+  width: 90%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.accordion-container input:checked ~ .accordion-item-detail {
+  max-height: 40rem;
+}
+
+@media (min-width: 50em) {
+  #second-section {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  #second-section-image {
+    width: 45%;
+    height: auto;
+  }
+
+  .second-section-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-grow: 1;
+    padding: 1rem 0 2rem 0;
+  }
+}

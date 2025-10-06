@@ -1,0 +1,72 @@
+h2 {
+  width: 100%;
+  padding: 0;
+  margin: 2rem 0 1rem 0;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-size: clamp(1.3rem, 1.7vw, 2rem);
+  padding: 0;
+}
+
+#first-section,
+#second-section,
+#third-section {
+  background-image: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+#first-section {
+  background-image: url("../images/ceo.webp");
+  background-position: top;
+  background-size: cover;
+}
+
+.p-container {
+  padding: 3rem 0 3rem 0;
+  max-width: 50rem;
+  text-align: left;
+}
+
+#closing {
+  text-align: right;
+}
+
+#second-section {
+  background-image: url("../images/productionline.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+table {
+  border: 1px solid #000000;
+  border-spacing: 0;
+  border-collapse: collapse;
+  background-color: #ffffffcc;
+  margin: 0 0 2rem 0;
+}
+
+th,
+td {
+  border: 1px solid #000000;
+  font-size: clamp(1rem, 1.3vw, 1.5rem);
+  padding: clamp(.1rem, .2vw, 1rem) clamp(.1rem, .5vw, 1rem) clamp(.1rem, .2vw, 1rem) clamp(.1rem, .5vw, 1rem);
+}
+
+th {
+  background-color: #87aad165;
+}
+
+main > p {
+  font-size: clamp(1rem, 1.3vw, 1.5rem);
+  max-width: 50rem;
+  text-align: left;
+}

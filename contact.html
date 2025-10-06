@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <title>YNG Cosmetics</title>
+    <link rel="stylesheet" href="styles/normalize-ssd.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/contact-style.css" />
+    <script src="./js/navigation.js" defer></script>
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <header>
+        <div class="header-wrapper">
+          <button class="hamburger" aria-label="Open navigation menu" aria-controls="main-nav" aria-expanded="false">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+          <a href="index.html" id="site-logo-a">
+            <img id="site-logo" src="images/yng_logo.png" alt="Y&G Co. Logo" />
+          </a>
+          <nav id="main-nav">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="powderwash.html">Enzyme Powder Wash</a></li>
+              <li><a href="aboutus.html">About Us</a></li>
+              <li><a class="last-menu" href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <h1>Contact</h1>
+        <section>
+          <h2 class="hidden-header">Contact Form</h2>
+          <div class="form-wrapper">
+            <form class="form" action="https://yngcos.com/process-form.php">
+              <label class="form-label" for="fname">
+                First Name
+              </label>
+              <input type="text" class="input-box" id="fname" name="firstname" placeholder="first name" required/>
+              <label class="form-label" for="lname">
+                Last Name
+              </label>
+              <input type="text" class="input-box" id="lname" name="lastname" placeholder="last name" required/>
+              <label class="form-label" for="email">
+                Email
+              </label>
+              <input type="email" class="input-box" id="email" name="email-address" placeholder="email" required/>            
+              <label class="form-label" for="phone">
+                Phone
+              </label>
+              <input type="tel" class="input-box" id="phone" name="phone-number" placeholder="phone" required/>
+              <label class="form-label" for="subject">
+                Content
+              </label>
+              <textarea class="input-content" id="subject" name="subject">
+              </textarea>
+              <div id="right-align"><input class="send-btn" type="submit" value="Send"></div>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>&copy;2025 Y&G Korea</p>
+      </footer>
+    </div>
+  </body>
+</html>
